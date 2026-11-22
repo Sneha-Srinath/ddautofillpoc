@@ -1,0 +1,12 @@
+template_id: tpl-c001-html
+client_id: C001
+company_name: Harbor Point Insurance Group, LLC
+name: Online MGA Onboarding Form
+format: html
+issuer: Granite Shield Casualty Co.
+file: templates/C001_Online_MGA_Onboarding_Form.html
+field_count: 24
+uploaded_on: 2026-11-22T17:23
+uploaded_by: admin.demo
+version: 1
+mapping_version: 0

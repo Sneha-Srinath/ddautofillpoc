@@ -1,0 +1,20 @@
+# Thresholds, precedence and feature flags (configuration, not code - NFR-6)
+confidence_threshold: 0.80
+fuzzy_threshold: 85
+llm:
+  enabled: false            # overridden by LLM_ENABLED env var
+  model: claude-opus-5-5
+  max_tokens: 4000
+# Master-data tables: the DB value wins over JSON (FR-12). Everything else is JSON first.
+master_tables: [client, client_address, client_contact, client_license]
+# DB tables exposed to matching. key = discriminator column, default = row that also
+# answers un-qualified names ("phone" means the Primary contact), latest = pick max(col).
+db_tables:
+  client: {}
+  client_address: {key: address_type, default: Mailing}
+  client_contact: {key: role, default: Primary}
+  client_license: {key: license_type, default: Resident}
+  client_financials: {latest: fiscal_year}
+  client_insurance: {key: coverage_type}
+  client_lending: {latest: fiscal_year}
+date_output_format: "%m/%d/%Y"

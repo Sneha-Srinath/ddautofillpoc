@@ -1,0 +1,113 @@
+{
+  "client_id": "C009",
+  "client_name": "Crestline Claims Services, Inc.",
+  "extracted_at": "2026-11-20T10:05:00Z",
+  "source_documents": [
+    "CCS_TPA_Profile_2026.pdf",
+    "CCS_Claims_Audit_2025.pdf",
+    "CCS_Financial_Statements_2025.pdf"
+  ],
+  "company": {
+    "legal_name": {
+      "value": "Crestline Claims Services, Inc.",
+      "confidence": 0.97,
+      "source_ref": "CCS_TPA_Profile_2026.pdf#p1"
+    },
+    "fein": {
+      "value": "00-0000009",
+      "confidence": 0.94
+    },
+    "date_established": {
+      "value": "October 5, 1998",
+      "confidence": 0.93
+    }
+  },
+  "address": {
+    "street": {
+      "value": "250 West Street, Floor 4",
+      "confidence": 0.96
+    },
+    "city": {
+      "value": "Columbus",
+      "confidence": 0.98
+    },
+    "state": {
+      "value": "Ohio",
+      "confidence": 0.97
+    },
+    "zip": {
+      "value": "43215",
+      "confidence": 0.97
+    }
+  },
+  "claims_contact": {
+    "name": {
+      "value": "Dana Kowalski",
+      "confidence": 0.96
+    },
+    "title": {
+      "value": "VP, Claims Operations",
+      "confidence": 0.94
+    },
+    "phone": {
+      "value": "614-555-0188",
+      "confidence": 0.95
+    },
+    "email": {
+      "value": "dkowalski@crestline-claims.example",
+      "confidence": 0.95
+    }
+  },
+  "operations": {
+    "annual_revenue": {
+      "value": "$44.9 million",
+      "confidence": 0.92,
+      "source_ref": "CCS_Financial_Statements_2025.pdf#p3"
+    },
+    "claims_handled_annually": {
+      "value": "31,800",
+      "confidence": 0.9,
+      "source_ref": "CCS_TPA_Profile_2026.pdf#p2"
+    },
+    "average_days_to_close": {
+      "value": "approx 38",
+      "confidence": 0.86,
+      "source_ref": "CCS_Claims_Audit_2025.pdf#p6"
+    },
+    "licensed_adjusters": {
+      "value": "142",
+      "confidence": 0.91
+    },
+    "claims_system": {
+      "value": "ClaimPoint 7 (fictional)",
+      "confidence": 0.88
+    },
+    "litigation_management_guidelines": {
+      "value": "Yes",
+      "confidence": 0.9
+    },
+    "service_model": {
+      "value": "Full Service",
+      "confidence": 0.9
+    },
+    "primary_line_handled": {
+      "value": "Workers Compensation",
+      "confidence": 0.89
+    }
+  },
+  "legal": {
+    "pending_litigation": {
+      "value": "N/A",
+      "confidence": 0.74,
+      "source_ref": "CCS_Claims_Audit_2025.pdf#p9"
+    },
+    "eo_limit": {
+      "value": "$15,000,000",
+      "confidence": 0.94
+    },
+    "cyber_coverage": {
+      "value": "Yes",
+      "confidence": 0.92
+    }
+  }
+}

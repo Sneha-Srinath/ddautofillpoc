@@ -1,0 +1,26 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Secrets and local settings
+.env
+.streamlit/secrets.toml
+.claude/
+
+# Generated at run time (filled forms, Word previews)
+output/
+
+# Office lock and temporary files
+~$*
+*.tmp
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

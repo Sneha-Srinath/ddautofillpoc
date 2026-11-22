@@ -1,0 +1,11 @@
+template_id: tpl-c010
+client_id: C010
+company_name: Northstar Premium Finance Company
+name: Premium Finance Partner Application
+issuer: Northgate Specialty Insurance Co.
+file: templates/C010_Premium_Finance_Partner_Application.pdf
+field_count: 22
+uploaded_on: 2026-11-22T09:10
+uploaded_by: admin.demo
+version: 1
+mapping_version: 0

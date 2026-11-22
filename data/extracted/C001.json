@@ -1,0 +1,206 @@
+{
+  "client_id": "C001",
+  "client_name": "Harbor Point Insurance Group, LLC",
+  "extracted_at": "2026-11-18T14:05:00Z",
+  "source_documents": [
+    "HPIG_Audited_Financials_FY2025.pdf",
+    "HPIG_Granite_Shield_Program_Agreement_2024.pdf",
+    "HPIG_Carrier_Audit_Letter_2026.pdf",
+    "HPIG_Loss_Runs_2023-2025.xlsx",
+    "HPIG_SOC2_Type_II_2026.pdf",
+    "HPIG_EO_Declarations_2026.pdf"
+  ],
+  "entity": {
+    "legal_name": {
+      "value": "Harbor Point Insurance Group, LLC",
+      "confidence": 0.98,
+      "source_ref": "HPIG_Audited_Financials_FY2025.pdf#p1"
+    },
+    "dba_name": {
+      "value": "Harbor Point Programs",
+      "confidence": 0.93,
+      "source_ref": "HPIG_Audited_Financials_FY2025.pdf#p1"
+    },
+    "fein": {
+      "value": "00-0000001",
+      "confidence": 0.96,
+      "source_ref": "HPIG_Audited_Financials_FY2025.pdf#p2"
+    },
+    "entity_type": {
+      "value": "LLC",
+      "confidence": 0.94,
+      "source_ref": "HPIG_Audited_Financials_FY2025.pdf#p2"
+    },
+    "date_established": {
+      "value": "June 15, 2009",
+      "confidence": 0.92,
+      "source_ref": "HPIG_Audited_Financials_FY2025.pdf#p2"
+    },
+    "state_of_domicile": {
+      "value": "Delaware",
+      "confidence": 0.95,
+      "source_ref": "HPIG_Audited_Financials_FY2025.pdf#p2"
+    },
+    "website": {
+      "value": "www.harborpoint-mga.example",
+      "confidence": 0.9
+    }
+  },
+  "mailing_address": {
+    "street": {
+      "value": "4200 Morrison Boulevard, Suite 900",
+      "confidence": 0.97,
+      "source_ref": "HPIG_Audited_Financials_FY2025.pdf#p1"
+    },
+    "city": {
+      "value": "Charlotte",
+      "confidence": 0.98,
+      "source_ref": "HPIG_Audited_Financials_FY2025.pdf#p1"
+    },
+    "state": {
+      "value": "North Carolina",
+      "confidence": 0.97,
+      "source_ref": "HPIG_Audited_Financials_FY2025.pdf#p1"
+    },
+    "zip": {
+      "value": "28211",
+      "confidence": 0.97,
+      "source_ref": "HPIG_Audited_Financials_FY2025.pdf#p1"
+    }
+  },
+  "primary_contact": {
+    "name": {
+      "value": "Margaret Ellison",
+      "confidence": 0.96,
+      "source_ref": "HPIG_Granite_Shield_Program_Agreement_2024.pdf#p14"
+    },
+    "title": {
+      "value": "Chief Operating Officer",
+      "confidence": 0.94
+    },
+    "phone": {
+      "value": "704-555-0118",
+      "confidence": 0.95
+    },
+    "email": {
+      "value": "M.Ellison@HarborPoint-MGA.example",
+      "confidence": 0.95
+    }
+  },
+  "operations": {
+    "gross_written_premium": {
+      "value": "$48.6M",
+      "confidence": 0.93,
+      "source_ref": "HPIG_Audited_Financials_FY2025.pdf#p6"
+    },
+    "lines_of_business": {
+      "value": "Habitational, Artisan Contractors GL, Restaurant Package, Light Fleet Auto, Self-Storage, Excess/Umbrella",
+      "confidence": 0.9
+    },
+    "active_programs": {
+      "value": "6",
+      "confidence": 0.95,
+      "source_ref": "HPIG_Granite_Shield_Program_Agreement_2024.pdf#p3"
+    },
+    "three_year_loss_ratio": {
+      "value": "54.0%",
+      "confidence": 0.91,
+      "source_ref": "HPIG_Loss_Runs_2023-2025.xlsx#Summary"
+    },
+    "binding_authority": {
+      "value": "Full",
+      "confidence": 0.89,
+      "source_ref": "HPIG_Granite_Shield_Program_Agreement_2024.pdf#p5"
+    },
+    "uses_third_party_administrator": {
+      "value": "Yes",
+      "confidence": 0.9,
+      "source_ref": "HPIG_Carrier_Audit_Letter_2026.pdf#p2"
+    }
+  },
+  "underwriting": {
+    "carrier_audit_score": {
+      "value": "94/100",
+      "confidence": 0.92,
+      "source_ref": "HPIG_Carrier_Audit_Letter_2026.pdf#p1"
+    },
+    "referral_threshold": {
+      "value": "TIV above $25M or any risk outside program guidelines",
+      "confidence": 0.86
+    },
+    "underwriters_on_staff": {
+      "value": "38",
+      "confidence": 0.88
+    }
+  },
+  "claims": {
+    "tpa_name": {
+      "value": "Crestline Claims Services (fictional)",
+      "confidence": 0.9
+    },
+    "average_days_to_close": {
+      "value": "41",
+      "confidence": 0.87,
+      "source_ref": "HPIG_Carrier_Audit_Letter_2026.pdf#p3"
+    }
+  },
+  "compliance": {
+    "regulatory_actions_last_5_years": {
+      "value": "No",
+      "confidence": 0.93,
+      "source_ref": "HPIG_Carrier_Audit_Letter_2026.pdf#p4"
+    },
+    "pending_litigation": {
+      "value": "No",
+      "confidence": 0.91
+    },
+    "ofac_screening": {
+      "value": "Yes",
+      "confidence": 0.94
+    }
+  },
+  "insurance": {
+    "errors_omissions_limit": {
+      "value": "$10,000,000",
+      "confidence": 0.95,
+      "source_ref": "HPIG_EO_Declarations_2026.pdf#p1"
+    },
+    "cyber_insurance_in_force": {
+      "value": "Yes",
+      "confidence": 0.92,
+      "source_ref": "HPIG_SOC2_Type_II_2026.pdf#p22"
+    }
+  },
+  "cyber_it": {
+    "mfa_enforced": {
+      "value": "Yes",
+      "confidence": 0.93,
+      "source_ref": "HPIG_SOC2_Type_II_2026.pdf#p9"
+    },
+    "soc2_type_ii": {
+      "value": "Yes",
+      "confidence": 0.97,
+      "source_ref": "HPIG_SOC2_Type_II_2026.pdf#p1"
+    }
+  },
+  "risk_findings": [
+    {
+      "area": "Capacity concentration",
+      "rating": "Medium",
+      "finding": "Granite Shield provides 44% of premium capacity",
+      "confidence": 0.88
+    },
+    {
+      "area": "Commercial auto",
+      "rating": "Medium",
+      "finding": "RouteSafe Light Fleet 3-yr loss ratio 68.4%, above 65% target",
+      "confidence": 0.86
+    },
+    {
+      "area": "Controls",
+      "rating": "Low",
+      "finding": "Clean carrier audit (94/100); SOC 2 Type II with no exceptions",
+      "confidence": 0.93
+    }
+  ]
+}

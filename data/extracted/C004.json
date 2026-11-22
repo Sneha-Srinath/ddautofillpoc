@@ -1,0 +1,99 @@
+{
+  "client_id": "C004",
+  "client_name": "Bluewater Re Partners, LLC",
+  "extracted_at": "2026-11-18T14:31:00Z",
+  "source_documents": [
+    "BWRP_Counterparty_Questionnaire.pdf",
+    "BWRP_Operating_Agreement.pdf",
+    "BWRP_Panel_Security_Report_2026.pdf",
+    "BWRP_Sanctions_Policy.pdf"
+  ],
+  "counterparty": {
+    "entity_name": {
+      "value": "Bluewater Re Partners, LLC",
+      "confidence": 0.97,
+      "source_ref": "BWRP_Counterparty_Questionnaire.pdf#p1"
+    },
+    "formation_date": {
+      "value": "04/05/2019",
+      "confidence": 0.9,
+      "source_ref": "BWRP_Operating_Agreement.pdf#p1"
+    },
+    "years_in_business": {
+      "value": "7",
+      "confidence": 0.92
+    }
+  },
+  "office": {
+    "street_address": {
+      "value": "60 Atlantic Wharf, 11th Floor",
+      "confidence": 0.95
+    },
+    "city": {
+      "value": "Boston",
+      "confidence": 0.98
+    },
+    "state_code": {
+      "value": "MA",
+      "confidence": 0.98
+    },
+    "postal_code": {
+      "value": "02110",
+      "confidence": 0.96
+    }
+  },
+  "key_contact": {
+    "name": {
+      "value": "Nathaniel Brooks",
+      "confidence": 0.96
+    },
+    "title": {
+      "value": "Principal",
+      "confidence": 0.93
+    },
+    "phone": {
+      "value": "617-555-0131",
+      "confidence": 0.94
+    },
+    "email": {
+      "value": "nbrooks@bluewater-re.example",
+      "confidence": 0.95
+    }
+  },
+  "security": {
+    "financial_strength_rating": {
+      "value": "A+",
+      "confidence": 0.9,
+      "source_ref": "BWRP_Panel_Security_Report_2026.pdf#p2"
+    }
+  },
+  "business": {
+    "annual_brokerage_revenue": {
+      "value": "$12.4M",
+      "confidence": 0.91
+    },
+    "placement_type": {
+      "value": "Treaty & Facultative",
+      "confidence": 0.89
+    },
+    "errors_omissions_limit": {
+      "value": "$3M",
+      "confidence": 0.9
+    }
+  },
+  "controls": {
+    "collateral_required": {
+      "value": "Yes",
+      "confidence": 0.88
+    },
+    "sanctions_screening_performed": {
+      "value": "Yes",
+      "confidence": 0.95,
+      "source_ref": "BWRP_Sanctions_Policy.pdf#p2"
+    },
+    "cyber_coverage_in_force": {
+      "value": "Yes",
+      "confidence": 0.9
+    }
+  }
+}

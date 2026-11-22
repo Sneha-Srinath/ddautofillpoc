@@ -1,0 +1,110 @@
+{
+  "client_id": "C012",
+  "client_name": "Cascade Surplus Lines Brokerage, LLC",
+  "extracted_at": "2026-11-20T10:55:00Z",
+  "source_documents": [
+    "CSLB_Firm_Profile_2026.pdf",
+    "CSLB_WA_SL_License.pdf",
+    "CSLB_EO_Declarations_2026.pdf"
+  ],
+  "firm": {
+    "legal_name": {
+      "value": "Cascade Surplus Lines Brokerage, LLC",
+      "confidence": 0.98,
+      "source_ref": "CSLB_Firm_Profile_2026.pdf#p1"
+    },
+    "fein": {
+      "value": "00-0000012",
+      "confidence": 0.95
+    },
+    "date_established": {
+      "value": "2010-06-01",
+      "confidence": 0.95
+    },
+    "website": {
+      "value": "www.cascade-sl.example",
+      "confidence": 0.92
+    }
+  },
+  "address": {
+    "street": {
+      "value": "1201 Third Avenue, Suite 3400",
+      "confidence": 0.96
+    },
+    "city": {
+      "value": "Seattle",
+      "confidence": 0.98
+    },
+    "state": {
+      "value": "WA",
+      "confidence": 0.98
+    },
+    "zip": {
+      "value": "98101",
+      "confidence": 0.97
+    }
+  },
+  "contact": {
+    "name": {
+      "value": "Megan O'Rourke",
+      "confidence": 0.96
+    },
+    "title": {
+      "value": "Principal Broker",
+      "confidence": 0.95
+    },
+    "phone": {
+      "value": "206-555-0171",
+      "confidence": 0.95
+    },
+    "email": {
+      "value": "morourke@cascade-sl.example",
+      "confidence": 0.96
+    }
+  },
+  "licensing": {
+    "surplus_lines_license_number": {
+      "value": "MOCK-WA-SL-118204",
+      "confidence": 0.96,
+      "source_ref": "CSLB_WA_SL_License.pdf#p1"
+    },
+    "license_expiration_date": {
+      "value": "May 31, 2027",
+      "confidence": 0.94
+    },
+    "number_of_states_licensed": {
+      "value": "11",
+      "confidence": 0.9
+    },
+    "resident_state": {
+      "value": "Washington",
+      "confidence": 0.96
+    },
+    "prior_license_revocation": {
+      "value": "No",
+      "confidence": 0.93
+    },
+    "market_access": {
+      "value": "Non-admitted",
+      "confidence": 0.9
+    }
+  },
+  "production": {
+    "premium_placed": {
+      "value": "$165M",
+      "confidence": 0.92,
+      "source_ref": "CSLB_Firm_Profile_2026.pdf#p2"
+    }
+  },
+  "insurance": {
+    "eo_limit": {
+      "value": "$5,000,000",
+      "confidence": 0.95,
+      "source_ref": "CSLB_EO_Declarations_2026.pdf#p1"
+    },
+    "cyber_coverage": {
+      "value": "Yes",
+      "confidence": 0.92
+    }
+  }
+}

@@ -1,0 +1,12 @@
+template_id: tpl-c013-docx
+client_id: C013
+company_name: Harborline Marine Underwriters, LLC
+name: Marine Program Underwriting Submission
+format: docx
+issuer: Keel Marine Insurance Co.
+file: templates/C013_Marine_Program_Underwriting_Submission.docx
+field_count: 10
+uploaded_on: 2026-11-22T17:23
+uploaded_by: admin.demo
+version: 1
+mapping_version: 0

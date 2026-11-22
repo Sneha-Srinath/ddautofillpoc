@@ -1,0 +1,139 @@
+{
+  "client_id": "C002",
+  "client_name": "Delta Pine Mutual Insurance Company",
+  "extracted_at": "2026-11-18T14:12:00Z",
+  "source_documents": [
+    "DPM_Annual_Statement_2025.pdf",
+    "DPM_AM_Best_Rating_Report_2026.pdf",
+    "DPM_Reinsurance_Summary_2026.pdf",
+    "DPM_Partner_Onboarding_Letter.pdf"
+  ],
+  "company_profile": {
+    "registered_name": {
+      "value": "Delta Pine Mutual Insurance Company",
+      "confidence": 0.97,
+      "source_ref": "DPM_Annual_Statement_2025.pdf#p1"
+    },
+    "doing_business_as": {
+      "value": "Delta Pine Mutual",
+      "confidence": 0.9
+    },
+    "naic_company_code": {
+      "value": "99021",
+      "confidence": 0.94,
+      "source_ref": "DPM_Annual_Statement_2025.pdf#p1"
+    },
+    "date_of_incorporation": {
+      "value": "September 1, 1948",
+      "confidence": 0.9,
+      "source_ref": "DPM_Annual_Statement_2025.pdf#p1"
+    },
+    "state_of_domicile": {
+      "value": "Mississippi",
+      "confidence": 0.96,
+      "source_ref": "DPM_Annual_Statement_2025.pdf#p1"
+    }
+  },
+  "headquarters_address": {
+    "street": {
+      "value": "PO Box 16400",
+      "confidence": 0.93
+    },
+    "city": {
+      "value": "Jackson",
+      "confidence": 0.97
+    },
+    "state": {
+      "value": "Mississippi",
+      "confidence": 0.97
+    },
+    "zip_code": {
+      "value": "39236",
+      "confidence": 0.95
+    }
+  },
+  "partnership_contact": {
+    "full_name": {
+      "value": "Robert Haynes",
+      "confidence": 0.95,
+      "source_ref": "DPM_Partner_Onboarding_Letter.pdf#p1"
+    },
+    "title": {
+      "value": "SVP, Distribution & Partnerships",
+      "confidence": 0.92
+    },
+    "telephone": {
+      "value": "(601) 555-0147",
+      "confidence": 0.88,
+      "source_ref": "DPM_Partner_Onboarding_Letter.pdf#p2"
+    },
+    "email": {
+      "value": "rhaynes@deltapinemutual.example",
+      "confidence": 0.94
+    }
+  },
+  "statutory_financials": {
+    "direct_written_premium": {
+      "value": "$214.5M",
+      "confidence": 0.87,
+      "source_ref": "DPM_Annual_Statement_2025.pdf#p4"
+    },
+    "policyholder_surplus": {
+      "value": "approx $96M",
+      "confidence": 0.85,
+      "source_ref": "DPM_Annual_Statement_2025.pdf#p3"
+    },
+    "net_income": {
+      "value": "$8.9 million",
+      "confidence": 0.92,
+      "source_ref": "DPM_Annual_Statement_2025.pdf#p5"
+    },
+    "combined_ratio": {
+      "value": "98.7%",
+      "confidence": 0.9,
+      "source_ref": "DPM_Annual_Statement_2025.pdf#p5"
+    }
+  },
+  "rating": {
+    "financial_strength_rating": {
+      "value": "Excellent",
+      "confidence": 0.84,
+      "source_ref": "DPM_AM_Best_Rating_Report_2026.pdf#p1"
+    },
+    "rating_outlook": {
+      "value": "Stable",
+      "confidence": 0.91,
+      "source_ref": "DPM_AM_Best_Rating_Report_2026.pdf#p1"
+    }
+  },
+  "reinsurance": {
+    "reinsurance_program_in_place": {
+      "value": "Yes",
+      "confidence": 0.95,
+      "source_ref": "DPM_Reinsurance_Summary_2026.pdf#p1"
+    },
+    "uses_catastrophe_modeling": {
+      "value": "Yes",
+      "confidence": 0.89,
+      "source_ref": "DPM_Reinsurance_Summary_2026.pdf#p4"
+    },
+    "cat_retention": {
+      "value": "$7,500,000 per occurrence",
+      "confidence": 0.88
+    }
+  },
+  "risk_findings": [
+    {
+      "area": "Farmowners results",
+      "rating": "Medium",
+      "finding": "Farm & Ranch 3-yr loss ratio 66.8%",
+      "confidence": 0.86
+    },
+    {
+      "area": "Catastrophe",
+      "rating": "Low",
+      "finding": "Cat XOL protects to a 1-in-250 PML",
+      "confidence": 0.83
+    }
+  ]
+}

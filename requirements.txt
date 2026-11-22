@@ -1,0 +1,20 @@
+streamlit>=1.67,<2
+pandas>=2.2
+pydantic>=2.9
+sqlalchemy>=2.0
+pymupdf>=1.25
+reportlab>=4.2
+rapidfuzz>=3.10
+dateparser>=1.2
+phonenumbers>=8.13
+pyyaml>=6.0
+python-dotenv>=1.0
+python-docx>=1.1
+beautifulsoup4>=4.12
+lxml>=5.0
+mammoth>=1.8
+anthropic>=0.40
+pytest>=8.0
+# Exact Word previews use Microsoft Word through COM (Windows only).
+# Elsewhere, such as Streamlit Community Cloud, an approximate preview is shown instead.
+pywin32>=306; sys_platform == "win32"

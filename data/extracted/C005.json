@@ -1,0 +1,146 @@
+{
+  "client_id": "C005",
+  "client_name": "Keystone Benefits Brokerage, Inc.",
+  "extracted_at": "2026-11-18T14:44:00Z",
+  "source_documents": [
+    "KBB_Confidential_Information_Memorandum.pdf",
+    "KBB_TTM_Financials_Sep2026.xlsx",
+    "KBB_Book_of_Business_Summary.pdf",
+    "KBB_Legal_Disclosure_Schedule.pdf"
+  ],
+  "target_company": {
+    "company_name": {
+      "value": "Keystone Benefits Brokerage, Inc.",
+      "confidence": 0.97,
+      "source_ref": "KBB_Confidential_Information_Memorandum.pdf#p1"
+    },
+    "dba": {
+      "value": "Keystone Benefits",
+      "confidence": 0.92
+    },
+    "fein": {
+      "value": "00-0000005",
+      "confidence": 0.94
+    },
+    "founded": {
+      "value": "2003-05-12",
+      "confidence": 0.95,
+      "source_ref": "KBB_Confidential_Information_Memorandum.pdf#p2"
+    },
+    "state_of_incorporation": {
+      "value": "Pennsylvania",
+      "confidence": 0.95
+    },
+    "employees": {
+      "value": "96",
+      "confidence": 0.92
+    }
+  },
+  "address": {
+    "street": {
+      "value": "301 Grant Street, Suite 2600",
+      "confidence": 0.96
+    },
+    "city": {
+      "value": "Pittsburgh",
+      "confidence": 0.98
+    },
+    "state": {
+      "value": "PA",
+      "confidence": 0.98
+    },
+    "zip": {
+      "value": "15219",
+      "confidence": 0.97
+    }
+  },
+  "contact": {
+    "name": {
+      "value": "Gregory Walsh",
+      "confidence": 0.97
+    },
+    "title": {
+      "value": "President & Founder",
+      "confidence": 0.95
+    },
+    "phone": {
+      "value": "412-555-0163",
+      "confidence": 0.95
+    },
+    "email": {
+      "value": "gwalsh@keystonebenefits.example",
+      "confidence": 0.96
+    }
+  },
+  "ownership": {
+    "structure": {
+      "value": "Privately Held",
+      "confidence": 0.9,
+      "source_ref": "KBB_Confidential_Information_Memorandum.pdf#p4"
+    }
+  },
+  "financial_summary": {
+    "revenue_ttm": {
+      "value": "$18.4M",
+      "confidence": 0.93,
+      "source_ref": "KBB_TTM_Financials_Sep2026.xlsx#PnL"
+    },
+    "ebitda_ttm": {
+      "value": "$4.1M",
+      "confidence": 0.86,
+      "source_ref": "KBB_TTM_Financials_Sep2026.xlsx#PnL"
+    }
+  },
+  "book": {
+    "group_clients": {
+      "value": "1,140",
+      "confidence": 0.91,
+      "source_ref": "KBB_Book_of_Business_Summary.pdf#p1"
+    },
+    "top_carrier_concentration_pct": {
+      "value": "41%",
+      "confidence": 0.9,
+      "source_ref": "KBB_Book_of_Business_Summary.pdf#p2"
+    },
+    "client_retention_rate": {
+      "value": "93.5%",
+      "confidence": 0.89,
+      "source_ref": "KBB_Book_of_Business_Summary.pdf#p2"
+    },
+    "top_10_client_concentration_pct": {
+      "value": null,
+      "confidence": 0.0
+    }
+  },
+  "legal": {
+    "pending_litigation": {
+      "value": "Under review - see disclosure schedule item 4.2",
+      "confidence": 0.71,
+      "source_ref": "KBB_Legal_Disclosure_Schedule.pdf#p3"
+    },
+    "eo_claims_last_5_years": {
+      "value": "No",
+      "confidence": 0.88,
+      "source_ref": "KBB_Legal_Disclosure_Schedule.pdf#p2"
+    }
+  },
+  "contracts": {
+    "non_compete_agreements": {
+      "value": null,
+      "confidence": 0.0
+    }
+  },
+  "insurance": {
+    "cyber_coverage": {
+      "value": "Yes",
+      "confidence": 0.92
+    }
+  },
+  "deal": {
+    "preferred_transaction_structure": {
+      "value": "Asset Purchase",
+      "confidence": 0.87,
+      "source_ref": "KBB_Confidential_Information_Memorandum.pdf#p9"
+    }
+  }
+}

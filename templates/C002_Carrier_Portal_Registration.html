@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Carrier Portal Registration</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>:root{--brand:#1E5631;--accent:#8DB663}
+*{box-sizing:border-box} body{margin:0;background:#EEF1F5;font-family:'Segoe UI',Arial,sans-serif;color:#1C2533}
+.page{max-width:760px;margin:24px auto;background:#fff;border-radius:10px;overflow:hidden;
+  box-shadow:0 2px 10px rgba(20,35,60,.08)}
+header{background:var(--brand);color:#fff;padding:22px 28px;border-bottom:4px solid var(--accent)}
+header small{letter-spacing:.06em;font-weight:600;opacity:.85} header h1{margin:6px 0 0;font-size:24px}
+.intro{padding:14px 28px 0;color:#5B6676;font-size:13px}
+form{padding:8px 28px 28px} fieldset{border:1px solid #D5DBE3;border-radius:8px;margin:16px 0 0;padding:12px 16px 14px}
+legend{font-weight:700;color:var(--brand);padding:0 6px;font-size:14px}
+.row{display:grid;grid-template-columns:repeat(2,1fr);gap:10px 16px}
+.f{display:flex;flex-direction:column;gap:4px;font-size:12px;color:#5B6676;font-weight:600}
+.f.wide{grid-column:1 / -1}
+input[type=text],input[type=email],input[type=tel],input[type=date],input[type=number],select,textarea{
+  font:inherit;font-size:14px;font-weight:400;color:#1C2533;padding:8px 10px;border:1px solid #C9D1DC;border-radius:6px;background:#F8FAFC}
+textarea{min-height:64px}
+.opts{display:flex;gap:18px;flex-wrap:wrap;font-weight:400;color:#1C2533;font-size:14px}
+.check{display:flex;align-items:center;gap:8px;font-weight:400;color:#1C2533;font-size:14px}
+footer{padding:12px 28px;font-size:11px;color:#5B6676;border-top:1px solid #E3E7ED}
+button{background:var(--brand);color:#fff;border:0;border-radius:6px;padding:10px 18px;font-weight:600;margin-top:16px}
+</style></head>
+<body><div class="page">
+<header><small>NORTHGATE SPECIALTY INSURANCE CO.</small><h1>Carrier Portal Registration</h1></header>
+<p class="intro">Register your company for the Northgate carrier partner portal.</p>
+<form><fieldset><legend>Carrier</legend><div class="row"><div class="f"><label for="f_insured_name">Insured Name</label><input type="text" id="f_insured_name" name="insured_name"></div><div class="f"><label for="f_naic">NAIC Company Code</label><input type="text" id="f_naic" name="naic"></div><div class="f"><label for="f_incorporated">Date of Incorporation</label><input type="date" id="f_incorporated" name="incorporated"></div><div class="f"><label for="f_domicile">State of Domicile</label><input type="text" id="f_domicile" name="domicile" maxlength="2"></div></div></fieldset><fieldset><legend>Home office</legend><div class="row"><div class="f"><label for="f_street">Street Address</label><input type="text" id="f_street" name="street"></div><div class="f"><label for="f_city">City</label><input type="text" id="f_city" name="city"></div><div class="f"><label for="f_state">State</label><input type="text" id="f_state" name="state" maxlength="2"></div><div class="f"><label for="f_zip">Zip Code</label><input type="text" id="f_zip" name="zip" maxlength="10"></div></div></fieldset><fieldset><legend>Portal administrator</legend><div class="row"><div class="f"><label for="f_contact">Contact Person</label><input type="text" id="f_contact" name="contact"></div><div class="f"><label for="f_title">Contact Title</label><input type="text" id="f_title" name="title"></div><div class="f"><label for="f_phone">Telephone</label><input type="tel" id="f_phone" name="phone"></div><div class="f"><label for="f_email">E-mail Address</label><input type="email" id="f_email" name="email"></div></div></fieldset><fieldset><legend>Financials</legend><div class="row"><div class="f"><label for="f_dwp">Direct Written Premium</label><input type="text" id="f_dwp" name="dwp"></div><div class="f"><label for="f_surplus">Policyholder Surplus</label><input type="text" id="f_surplus" name="surplus"></div><div class="f"><label for="f_am_best">AM Best Rating</label><select id="f_am_best" name="am_best"><option value=""></option><option>A++</option><option>A+</option><option>A</option><option>A-</option><option>B++</option><option>B+</option><option>B</option><option>NR</option></select></div><fieldset class="f wide"><legend>Rating Outlook</legend><div class="opts"><label><input type="radio" name="outlook" value="Positive"> Positive</label><label><input type="radio" name="outlook" value="Stable"> Stable</label><label><input type="radio" name="outlook" value="Negative"> Negative</label></div></fieldset><div class="f wide"><label class="check"><input type="checkbox" id="f_reinsurance" name="reinsurance"> Reinsurance Program in Place</label></div><div class="f wide"><label class="check"><input type="checkbox" id="f_cat_model" name="cat_model"> Uses Catastrophe Modeling</label></div></div></fieldset><fieldset><legend>Certification</legend><div class="row"><div class="f"><label for="f_officer_signature">Officer Signature</label><input type="text" id="f_officer_signature" name="officer_signature"></div></div></fieldset><button type="submit">Submit</button></form>
+<footer>Fictional demo form. All names and identifiers are mock data.</footer>
+</div></body></html>

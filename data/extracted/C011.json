@@ -1,0 +1,105 @@
+{
+  "client_id": "C011",
+  "client_name": "BrightPath Digital Insurance Agency, Inc.",
+  "extracted_at": "2026-11-20T10:30:00Z",
+  "source_documents": [
+    "BPDI_Investor_Update_Q3_2026.pdf",
+    "BPDI_SOC2_Type_II_2026.pdf",
+    "BPDI_Sentinel_MGA_Agreement.pdf"
+  ],
+  "company": {
+    "company_name": {
+      "value": "BrightPath Digital Insurance Agency, Inc.",
+      "confidence": 0.97,
+      "source_ref": "BPDI_Investor_Update_Q3_2026.pdf#p1"
+    },
+    "fein": {
+      "value": "00-0000011",
+      "confidence": 0.93
+    },
+    "entity_type": {
+      "value": "Corporation",
+      "confidence": 0.95
+    }
+  },
+  "hq": {
+    "street": {
+      "value": "500 West 2nd Street, Suite 1900",
+      "confidence": 0.95
+    },
+    "city": {
+      "value": "Austin",
+      "confidence": 0.98
+    },
+    "state": {
+      "value": "Texas",
+      "confidence": 0.97
+    },
+    "zip": {
+      "value": "78701",
+      "confidence": 0.97
+    }
+  },
+  "contact": {
+    "name": {
+      "value": "Priya Raman",
+      "confidence": 0.97
+    },
+    "title": {
+      "value": "Co-Founder & CEO",
+      "confidence": 0.95
+    },
+    "phone": {
+      "value": "512 555 0161",
+      "confidence": 0.94
+    },
+    "email": {
+      "value": "Priya@BrightPath-Insure.example",
+      "confidence": 0.95
+    }
+  },
+  "metrics": {
+    "written_premium": {
+      "value": "$44.1M",
+      "confidence": 0.72,
+      "source_ref": "BPDI_Investor_Update_Q3_2026.pdf#p4"
+    },
+    "revenue": {
+      "value": "$10.1M",
+      "confidence": 0.9,
+      "source_ref": "BPDI_Investor_Update_Q3_2026.pdf#p4"
+    },
+    "active_policy_count": {
+      "value": "27,450",
+      "confidence": 0.91,
+      "source_ref": "BPDI_Investor_Update_Q3_2026.pdf#p5"
+    },
+    "binding_authority": {
+      "value": "Full",
+      "confidence": 0.9,
+      "source_ref": "BPDI_Sentinel_MGA_Agreement.pdf#p6"
+    }
+  },
+  "security": {
+    "soc2_type_ii_report": {
+      "value": "Yes",
+      "confidence": 0.97,
+      "source_ref": "BPDI_SOC2_Type_II_2026.pdf#p1"
+    },
+    "mfa_enforced": {
+      "value": "Yes",
+      "confidence": 0.95,
+      "source_ref": "BPDI_SOC2_Type_II_2026.pdf#p11"
+    },
+    "cyber_coverage_in_force": {
+      "value": "Yes",
+      "confidence": 0.93
+    }
+  },
+  "compliance": {
+    "regulatory_action": {
+      "value": "No",
+      "confidence": 0.9
+    }
+  }
+}

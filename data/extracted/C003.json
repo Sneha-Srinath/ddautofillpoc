@@ -1,0 +1,135 @@
+{
+  "client_id": "C003",
+  "client_name": "Summit Ridge Specialty Brokers, Inc.",
+  "extracted_at": "2026-11-18T14:20:00Z",
+  "source_documents": [
+    "SRSB_Agency_Profile_2026.pdf",
+    "SRSB_TX_License_Certificate.pdf",
+    "SRSB_EO_Certificate_2026.pdf",
+    "SRSB_Reviewed_Financials_2025.pdf"
+  ],
+  "agency": {
+    "agency_name": {
+      "value": "Summit Ridge Specialty Brokers, Inc.",
+      "confidence": 0.97,
+      "source_ref": "SRSB_Agency_Profile_2026.pdf#p1"
+    },
+    "trade_name": {
+      "value": "Summit Ridge Wholesale",
+      "confidence": 0.91
+    },
+    "fein": {
+      "value": "00-0000003",
+      "confidence": 0.95,
+      "source_ref": "SRSB_Agency_Profile_2026.pdf#p1"
+    },
+    "date_established": {
+      "value": "March 3, 2014",
+      "confidence": 0.93,
+      "source_ref": "SRSB_Agency_Profile_2026.pdf#p1"
+    },
+    "website": {
+      "value": "www.summitridge-wholesale.example",
+      "confidence": 0.9
+    }
+  },
+  "mailing": {
+    "address": {
+      "value": "1717 Cedar Springs Road, Suite 1400",
+      "confidence": 0.95
+    },
+    "city": {
+      "value": "Dallas",
+      "confidence": 0.97
+    },
+    "state": {
+      "value": "Texas",
+      "confidence": 0.97
+    },
+    "zip": {
+      "value": "75201",
+      "confidence": 0.96
+    }
+  },
+  "principal": {
+    "name": {
+      "value": "Alicia Moreno",
+      "confidence": 0.96
+    },
+    "title": {
+      "value": "Managing Director",
+      "confidence": 0.94
+    },
+    "phone": {
+      "value": "214.555.0142",
+      "confidence": 0.93
+    },
+    "email": {
+      "value": "AMoreno@summitridge-wholesale.example",
+      "confidence": 0.94
+    }
+  },
+  "licensing": {
+    "resident_state": {
+      "value": "Texas",
+      "confidence": 0.96,
+      "source_ref": "SRSB_TX_License_Certificate.pdf#p1"
+    },
+    "resident_license_number": {
+      "value": "MOCK-TX-2290471",
+      "confidence": 0.95,
+      "source_ref": "SRSB_TX_License_Certificate.pdf#p1"
+    },
+    "license_expiration_date": {
+      "value": "2027-08-31",
+      "confidence": 0.94
+    },
+    "number_of_states_licensed": {
+      "value": "38",
+      "confidence": 0.9,
+      "source_ref": "SRSB_Agency_Profile_2026.pdf#p3"
+    },
+    "prior_license_revocation": {
+      "value": "No",
+      "confidence": 0.92
+    }
+  },
+  "errors_and_omissions": {
+    "carrier": {
+      "value": "Bastion E&O Underwriters",
+      "confidence": 0.9,
+      "source_ref": "SRSB_EO_Certificate_2026.pdf#p1"
+    },
+    "limit_per_claim": {
+      "value": "$5,000,000",
+      "confidence": 0.64,
+      "source_ref": "SRSB_EO_Certificate_2026.pdf#p1"
+    },
+    "expiration_date": {
+      "value": "01/15/2027",
+      "confidence": 0.91
+    }
+  },
+  "appointment": {
+    "appointment_type_requested": {
+      "value": "Surplus Lines Only",
+      "confidence": 0.88
+    },
+    "binds_coverage_on_behalf_of_carriers": {
+      "value": "Yes",
+      "confidence": 0.87
+    }
+  },
+  "production": {
+    "premium_placed_2025": {
+      "value": "$342M",
+      "confidence": 0.9,
+      "source_ref": "SRSB_Reviewed_Financials_2025.pdf#p2"
+    },
+    "commission_revenue_2025": {
+      "value": "$29.4M",
+      "confidence": 0.9,
+      "source_ref": "SRSB_Reviewed_Financials_2025.pdf#p2"
+    }
+  }
+}

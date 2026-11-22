@@ -1,0 +1,115 @@
+{
+  "client_id": "C008",
+  "client_name": "Granite Peak Captive Managers, Inc.",
+  "extracted_at": "2026-11-20T09:40:00Z",
+  "source_documents": [
+    "GPCM_Firm_Profile_2026.pdf",
+    "GPCM_VT_Regulator_Exam_Letter.pdf",
+    "GPCM_Audited_Financials_2025.pdf"
+  ],
+  "firm": {
+    "firm_name": {
+      "value": "Granite Peak Captive Managers, Inc.",
+      "confidence": 0.97,
+      "source_ref": "GPCM_Firm_Profile_2026.pdf#p1"
+    },
+    "fein": {
+      "value": "00-0000008",
+      "confidence": 0.95
+    },
+    "date_founded": {
+      "value": "08/21/2006",
+      "confidence": 0.93,
+      "source_ref": "GPCM_Firm_Profile_2026.pdf#p1"
+    },
+    "ownership_structure": {
+      "value": "Privately Held",
+      "confidence": 0.9
+    }
+  },
+  "office": {
+    "street": {
+      "value": "100 Bank Street, Suite 610",
+      "confidence": 0.96
+    },
+    "city": {
+      "value": "Burlington",
+      "confidence": 0.98
+    },
+    "state": {
+      "value": "Vermont",
+      "confidence": 0.97
+    },
+    "zip": {
+      "value": "05401",
+      "confidence": 0.96
+    }
+  },
+  "principal": {
+    "name": {
+      "value": "Owen Whitcomb",
+      "confidence": 0.96
+    },
+    "title": {
+      "value": "Managing Director",
+      "confidence": 0.94
+    },
+    "phone": {
+      "value": "(802) 555-0176",
+      "confidence": 0.95
+    },
+    "email": {
+      "value": "owhitcomb@granitepeak-captives.example",
+      "confidence": 0.95
+    }
+  },
+  "practice": {
+    "captives_under_management": {
+      "value": "37",
+      "confidence": 0.92,
+      "source_ref": "GPCM_Firm_Profile_2026.pdf#p3"
+    },
+    "premium_under_management": {
+      "value": "$482M",
+      "confidence": 0.9,
+      "source_ref": "GPCM_Firm_Profile_2026.pdf#p3"
+    },
+    "domiciles_served": {
+      "value": null,
+      "confidence": 0.0
+    },
+    "manager_type": {
+      "value": "Independent",
+      "confidence": 0.91
+    },
+    "annual_independent_audit": {
+      "value": "Yes",
+      "confidence": 0.93,
+      "source_ref": "GPCM_Audited_Financials_2025.pdf#p1"
+    }
+  },
+  "financials": {
+    "annual_revenue": {
+      "value": "$9.3M",
+      "confidence": 0.92,
+      "source_ref": "GPCM_Audited_Financials_2025.pdf#p4"
+    }
+  },
+  "insurance": {
+    "eo_limit": {
+      "value": "$5,000,000",
+      "confidence": 0.93
+    },
+    "cyber_coverage": {
+      "value": "Yes",
+      "confidence": 0.9
+    }
+  },
+  "compliance": {
+    "regulatory_action": {
+      "value": "No",
+      "confidence": 0.94,
+      "source_ref": "GPCM_VT_Regulator_Exam_Letter.pdf#p2"
+    }
+  }
+}

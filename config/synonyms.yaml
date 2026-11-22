@@ -1,0 +1,305 @@
+# US commercial insurance due diligence glossary.
+# Each concept lists the phrases (normalized: lower case, words only) that mean the same thing,
+# whether they appear as a PDF field name/label or as a JSON path / DB column.
+# `format` drives value conversion when the PDF field is a plain text field.
+# `manual: true` concepts are never auto-filled (signatures, attestations).
+
+concepts:
+  legal_name:
+    format: text
+    aliases: [cedent name, manager legal name, cedent cedent name, firm firm name, legal name, applicant legal name, insured name, named insured, name of agency,
+              entity name, company, company name, registered name, agency name, legal entity name,
+              target company name, applicant name, firm name, client legal name]
+  dba_name:
+    format: text
+    aliases: [dba, dba name, dba trade name, doing business as, trade name, trade name if any,
+              client dba name]
+  fein:
+    format: text
+    aliases: [federal tax id, fein, federal employer id number fein, federal employer id number,
+              federal employer identification number, ein, tax id, tin, client fein]
+  entity_type:
+    format: text
+    aliases: [entity type, type of entity, legal structure, legal entity type, client entity type]
+  established_date:
+    format: date
+    aliases: [date incorporated, date formed, applicant date formed, cedent date incorporated, firm date founded, date established, date agency established, date of incorporation, incorporation date,
+              date of formation, formation date, founded, date founded, established date,
+              client established date]
+  state_of_domicile:
+    format: state
+    aliases: [applicant state of domicile, cedent state of domicile, state of domicile, domicile state, state of inc, state of incorporation, domicile,
+              client state of domicile]
+  website:
+    format: text
+    aliases: [website, agency website, web site, url, web address, client website]
+  naic_code:
+    format: text
+    aliases: [naic code, naic company code, naic number, naic, client naic code]
+  ownership_structure:
+    format: text
+    aliases: [firm ownership structure, ownership, ownership structure, ownership type, client ownership structure]
+  employee_count:
+    format: number
+    aliases: [employee count, employees, employee count, number of employees, headcount, full time employees,
+              client employee count]
+  years_in_business:
+    format: number
+    aliases: [years in business, years of operation]
+
+  mailing_street:
+    format: text
+    aliases: [office street, home office street, hq street, mailing street, mailing address, street address, address, street, address line 1,
+              mailing address street, address mailing street, office street address,
+              headquarters address street]
+  mailing_city:
+    format: text
+    aliases: [office city, home office city, hq city, mailing city, city, city mailing, mailing address city, address mailing city,
+              office city, headquarters address city]
+  mailing_state:
+    format: state
+    aliases: [office state, home office state, hq state, mailing state, state, state mailing, state code, mailing address state,
+              address mailing state, office state code, headquarters address state]
+  mailing_zip:
+    format: zip
+    aliases: [office zip, home office zip, hq zip, mailing zip, zip, zip code, postal code, zip mailing, mailing address zip,
+              address mailing zip, office postal code, headquarters address zip code]
+
+  primary_contact_name:
+    format: text
+    aliases: [claims contact, claims contact name, reinsurance contact name, hq contact name, primary contact name, contact person, contact name, contact, principal contact name,
+              principal name, key contact name, partnership contact full name, primary full name,
+              contact primary full name, primary contact full name, contact full name]
+  primary_contact_title:
+    format: text
+    aliases: [claims contact title, reinsurance contact title, primary contact title, contact title, title, principal contact title, principal title,
+              key contact title, partnership contact title, contact primary title, primary title]
+  primary_contact_phone:
+    format: phone
+    aliases: [claims contact phone, reinsurance contact phone, primary contact phone, telephone, phone, phone number, contact phone,
+              principal contact phone, principal phone, key contact phone,
+              partnership contact telephone, contact primary phone, primary phone]
+  primary_contact_email:
+    format: email
+    aliases: [claims contact email, reinsurance contact email, primary contact email, email, e mail, e mail address, email address, contact email,
+              principal contact email, principal email, key contact email,
+              partnership contact email, contact primary email, primary email]
+
+  gross_written_premium:
+    format: currency
+    aliases: [premium under management, premium placed, practice premium under management, production premium placed, program gross written premium, metrics written premium, gross written premium, gross written premium last fiscal year, direct written premium,
+              gwp, dwp, premium volume, written premium, financials gross written premium,
+              operations gross written premium, statutory financials direct written premium]
+  revenue:
+    format: currency
+    aliases: [annual revenue, financials annual revenue, operations annual revenue, metrics revenue, revenue, annual revenue, revenue ttm, total revenue, annual brokerage revenue,
+              commission revenue, financials revenue, financial summary revenue ttm]
+  ebitda:
+    format: currency
+    aliases: [ebitda, ebitda ttm, adjusted ebitda, financials ebitda, financial summary ebitda ttm]
+  net_income:
+    format: currency
+    aliases: [net income, net income loss, financials net income, statutory financials net income]
+  policyholder_surplus:
+    format: currency
+    aliases: [policyholder surplus, statutory surplus, surplus as regards policyholders,
+              financials policyholder surplus, statutory financials policyholder surplus]
+  combined_ratio:
+    format: percent
+    aliases: [combined ratio, financials combined ratio, statutory financials combined ratio]
+  loss_ratio_3yr:
+    format: percent
+    aliases: [program three year loss ratio, three year loss ratio, 3 year loss ratio, loss ratio 3 year, operations three year loss ratio]
+  am_best_rating:
+    format: text
+    aliases: [rating am best rating, am best rating, financial strength rating, best rating, fsr, financials am best rating,
+              rating financial strength rating, security financial strength rating]
+  rating_outlook:
+    format: text
+    aliases: [rating outlook, outlook, am best outlook]
+  lines_of_business:
+    format: text
+    aliases: [program lines of business, lines of business, lines of business written, lob, operations lines of business]
+  program_count:
+    format: number
+    aliases: [number of active programs, active programs, program count, number of programs,
+              operations active programs]
+  binding_authority:
+    format: text
+    aliases: [program binding authority, metrics binding authority, binding authority, binding authority type, operations binding authority]
+
+  uses_tpa:
+    format: yesno
+    aliases: [controls uses tpa, uses tpa, uses tpa yes, uses a third party administrator tpa,
+              uses third party administrator, operations uses third party administrator]
+  regulatory_actions:
+    format: yesno
+    aliases: [regulatory action, controls regulatory action, compliance regulatory action, regulatory action yes, regulatory action in last 5 years, regulatory actions,
+              regulatory actions last 5 years, compliance regulatory actions last 5 years]
+  pending_litigation:
+    format: yesno
+    aliases: [legal pending litigation, pending litigation, litigation pending, legal pending litigation,
+              compliance pending litigation]
+  cyber_coverage:
+    format: yesno
+    aliases: [controls cyber coverage, legal cyber coverage, security cyber coverage in force, cyber coverage, cyber coverage yes, cyber coverage in force, cyber insurance in force,
+              insurance cyber insurance in force, insurance cyber coverage, controls cyber coverage in force]
+  reinsurance_in_place:
+    format: yesno
+    aliases: [reinsurance reinsurance in place, reinsurance program in place, reinsurance in place, reinsurance reinsurance program in place]
+  cat_modeling:
+    format: yesno
+    aliases: [uses cat modeling, uses catastrophe modeling, catastrophe modeling, reinsurance uses catastrophe modeling]
+  collateral_required:
+    format: yesno
+    aliases: [collateral required, controls collateral required]
+  sanctions_screening:
+    format: yesno
+    aliases: [sanctions screening performed, sanctions screening, ofac screening,
+              controls sanctions screening performed]
+  prior_revocation:
+    format: yesno
+    aliases: [any prior license revocation, prior license revocation, license revocation,
+              licensing prior license revocation]
+  binds_coverage:
+    format: yesno
+    aliases: [binds coverage on behalf of carriers, binds coverage,
+              appointment binds coverage on behalf of carriers]
+  eo_claims:
+    format: yesno
+    aliases: [eo claims 5 yrs, eo claims last 5 years, eo claims, legal eo claims last 5 years]
+  non_compete:
+    format: yesno
+    aliases: [non compete agreements, non compete agreements in place, contracts non compete agreements]
+
+  eo_carrier:
+    format: text
+    aliases: [eo carrier, errors and omissions carrier, insurance eo carrier, eo insurer]
+  eo_limit:
+    format: currency
+    aliases: [insurance eo limit, legal eo limit, eo limit, eo limit per claim, errors omissions limit, errors and omissions limit,
+              errors and omissions limit per claim, insurance eo limit amount, eo limit amount,
+              insurance errors omissions limit, business errors omissions limit]
+  eo_expiry:
+    format: date
+    aliases: [eo expiration date, eo expiry date, errors and omissions expiration date,
+              insurance eo expiry date]
+  resident_state:
+    format: state
+    aliases: [resident state, resident license state, license resident state, licensing resident state]
+  resident_license_number:
+    format: text
+    aliases: [surplus lines license number, sl license number, licensing surplus lines license number, resident license number, license number, resident license license number,
+              license resident license number, licensing resident license number]
+  license_expiry:
+    format: date
+    aliases: [license expiration date, license expiry date, resident license expiry date,
+              license resident expiry date, licensing license expiration date]
+  states_licensed:
+    format: number
+    aliases: [number of states licensed, states licensed, licensing number of states licensed]
+  appointment_type:
+    format: text
+    aliases: [appointment type requested, appointment type, appointment appointment type requested]
+  placement_type:
+    format: text
+    aliases: [placement type, business placement type]
+  group_clients:
+    format: number
+    aliases: [group clients, number of group clients, client count, book group clients]
+  top_carrier_pct:
+    format: percent
+    aliases: [top carrier pct, top carrier concentration pct, carrier concentration,
+              book top carrier concentration pct]
+  top10_clients_pct:
+    format: percent
+    aliases: [top 10 clients pct, top 10 client concentration pct, book top 10 client concentration pct]
+  retention_rate:
+    format: percent
+    aliases: [retention rate, client retention rate, book client retention rate]
+  transaction_structure:
+    format: text
+    aliases: [deal structure, preferred transaction structure, transaction structure,
+              deal preferred transaction structure]
+
+  telematics_required:
+    format: yesno
+    aliases: [telematics required for insureds, telematics required, program telematics required]
+  cat_retention:
+    format: currency
+    aliases: [catastrophe retention per occurrence, catastrophe retention, cat retention, reinsurance cat retention]
+  captives_under_management:
+    format: number
+    aliases: [captives under management, practice captives under management]
+  domiciles_served:
+    format: text
+    aliases: [domiciles served, practice domiciles served]
+  independent_audit:
+    format: yesno
+    aliases: [annual independent audit, independent audit, practice annual independent audit]
+  manager_type:
+    format: text
+    aliases: [manager type, practice manager type]
+  claims_handled:
+    format: number
+    aliases: [claims handled annually, claims handled, operations claims handled annually]
+  avg_days_to_close:
+    format: number
+    aliases: [average days to close, average closing days, operations average days to close, claims average days to close]
+  licensed_adjusters:
+    format: number
+    aliases: [licensed adjusters, number of licensed adjusters, operations licensed adjusters]
+  claims_system:
+    format: text
+    aliases: [claims system, operations claims system]
+  litigation_guidelines:
+    format: yesno
+    aliases: [uses litigation management guidelines, litigation management guidelines, operations litigation management guidelines]
+  service_model:
+    format: text
+    aliases: [service model, operations service model]
+  primary_line_handled:
+    format: text
+    aliases: [primary line handled, operations primary line handled]
+  loans_outstanding:
+    format: currency
+    aliases: [loans outstanding, lending loans outstanding, latest loans outstanding]
+  default_rate:
+    format: percent
+    aliases: [default rate, lending default rate]
+  policies_in_force:
+    format: number
+    aliases: [policies in force, active policy count, metrics active policy count]
+  soc2_report:
+    format: yesno
+    aliases: [soc 2 type ii report available, soc2 type ii report, security soc2 type ii report, soc2]
+  mfa_enforced:
+    format: yesno
+    aliases: [mfa enforced for all users, mfa enforced, security mfa enforced]
+  market_access:
+    format: text
+    aliases: [market access, licensing market access]
+
+  signature:
+    manual: true
+    aliases: [authorized signature, auditor signature, applicant signature, officer signature, producer attestation signature,
+              authorized officer signature, seller signature, signature, date signed,
+              signature date, attestation]
+
+# Option synonyms for dropdown / radio values (value as found -> option text)
+option_synonyms:
+  llc: Limited Liability Company
+  l l c: Limited Liability Company
+  inc: Corporation
+  corp: Corporation
+  c corp: Corporation
+  s corp: Corporation
+  mutual: Mutual Company
+  referral: Referral Only
+  pe backed: Private Equity Backed
+  private equity: Private Equity Backed
+  privately owned: Privately Held
+  surplus lines: Surplus Lines Only
+  direct: Direct Appointment
+  treaty and facultative: Treaty and Facultative
+  both: Treaty and Facultative

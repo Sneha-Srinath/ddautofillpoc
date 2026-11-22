@@ -1,0 +1,11 @@
+template_id: tpl-c001
+client_id: C001
+company_name: Harbor Point Insurance Group, LLC
+name: MGA Due Diligence Questionnaire
+issuer: Granite Shield Casualty Co.
+file: templates/C001_MGA_Due_Diligence_Questionnaire.pdf
+field_count: 26
+uploaded_on: 2026-11-22T09:10
+uploaded_by: admin.demo
+version: 1
+mapping_version: 0
